@@ -5,6 +5,6 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=================================================
-git clone https://github.com/coolsnowwolf/lede
+git clone https://github.com/Lienol/openwrt
 Modify default IP
 sed -i 's/192.168.1.1/10.10.10.5/g' package/base-files/files/bin/config_generate
